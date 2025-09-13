@@ -26,7 +26,7 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "outDir": "dist",
-    "skipLibCheck": true
+    "skipLibCheck": true,
   },
   "include": [
     "hardhat.config.ts",
