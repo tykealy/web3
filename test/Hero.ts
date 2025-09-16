@@ -31,6 +31,7 @@ describe("Hero", function(){
         expect(e.message.includes("Not enough money")).to.equal(true);
     })
 
+
     it("should get a zero hero array.", async function () {
         expect(await hero.getHeroes()).to.deep.equal([]);
     })
